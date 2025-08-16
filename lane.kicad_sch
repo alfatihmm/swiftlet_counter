@@ -1,0 +1,715 @@
+(kicad_sch
+  (version 20230121)
+  (generator "eeschema")
+  (generator_version "7.0")
+
+  (uuid "b1c2d3e4-f5g6-h789-0123-456789abcdef")
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Connector_Generic:Conn_01x02"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "J"
+        (at 0 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "Conn_01x02"
+        (at 0 -5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "Connector_Generic:Conn_01x03"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "J"
+        (at 0 5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "Conn_01x03"
+        (at 0 -5.08 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "Device:C"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "C"
+        (at 0.635 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+  )
+
+  (wire
+    (pts
+      (xy 60.96 60.96)
+      (xy 71.12 60.96)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "wire001-1234-5678-9abc-def012345678")
+  )
+
+  (wire
+    (pts
+      (xy 60.96 63.5)
+      (xy 71.12 63.5)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "wire002-1234-5678-9abc-def012345678")
+  )
+
+  (wire
+    (pts
+      (xy 60.96 83.82)
+      (xy 71.12 83.82)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "wire003-1234-5678-9abc-def012345678")
+  )
+
+  (wire
+    (pts
+      (xy 60.96 86.36)
+      (xy 71.12 86.36)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "wire004-1234-5678-9abc-def012345678")
+  )
+
+  (wire
+    (pts
+      (xy 139.7 60.96)
+      (xy 149.86 60.96)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "wire005-1234-5678-9abc-def012345678")
+  )
+
+  (wire
+    (pts
+      (xy 139.7 63.5)
+      (xy 149.86 63.5)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "wire006-1234-5678-9abc-def012345678")
+  )
+
+  (wire
+    (pts
+      (xy 139.7 66.04)
+      (xy 149.86 66.04)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "wire007-1234-5678-9abc-def012345678")
+  )
+
+  (wire
+    (pts
+      (xy 139.7 83.82)
+      (xy 149.86 83.82)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "wire008-1234-5678-9abc-def012345678")
+  )
+
+  (wire
+    (pts
+      (xy 139.7 86.36)
+      (xy 149.86 86.36)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "wire009-1234-5678-9abc-def012345678")
+  )
+
+  (wire
+    (pts
+      (xy 139.7 88.9)
+      (xy 149.86 88.9)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "wire010-1234-5678-9abc-def012345678")
+  )
+
+  (hierarchical_label "L0_EMIT_LUAR_ANODE"
+    (shape input)
+    (at 50.8 60.96 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "hlabel01-1234-5678-9abc-def012345678")
+  )
+
+  (hierarchical_label "L0_EMIT_LUAR_CATHODE"
+    (shape bidirectional)
+    (at 50.8 63.5 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "hlabel02-1234-5678-9abc-def012345678")
+  )
+
+  (hierarchical_label "L0_EMIT_DALAM_ANODE"
+    (shape input)
+    (at 50.8 83.82 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "hlabel03-1234-5678-9abc-def012345678")
+  )
+
+  (hierarchical_label "L0_EMIT_DALAM_CATHODE"
+    (shape bidirectional)
+    (at 50.8 86.36 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "hlabel04-1234-5678-9abc-def012345678")
+  )
+
+  (hierarchical_label "L0_TSOP_LUAR_VCC"
+    (shape power_in)
+    (at 160.02 60.96 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "hlabel05-1234-5678-9abc-def012345678")
+  )
+
+  (hierarchical_label "L0_TSOP_LUAR_OUT"
+    (shape output)
+    (at 160.02 63.5 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "hlabel06-1234-5678-9abc-def012345678")
+  )
+
+  (hierarchical_label "L0_TSOP_LUAR_GND"
+    (shape power_in)
+    (at 160.02 66.04 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "hlabel07-1234-5678-9abc-def012345678")
+  )
+
+  (hierarchical_label "L0_TSOP_DALAM_VCC"
+    (shape power_in)
+    (at 160.02 83.82 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "hlabel08-1234-5678-9abc-def012345678")
+  )
+
+  (hierarchical_label "L0_TSOP_DALAM_OUT"
+    (shape output)
+    (at 160.02 86.36 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "hlabel09-1234-5678-9abc-def012345678")
+  )
+
+  (hierarchical_label "L0_TSOP_DALAM_GND"
+    (shape power_in)
+    (at 160.02 88.9 0)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "hlabel10-1234-5678-9abc-def012345678")
+  )
+
+  (symbol
+    (lib_id "Connector_Generic:Conn_01x02")
+    (at 76.2 62.23 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "jemitlua-1234-5678-9abc-def012345678")
+    (property "Reference" "J-EMIT-LUAR"
+      (at 78.74 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "Conn_01x02"
+      (at 78.74 64.77 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 76.2 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 76.2 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "jel1pin1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "jel1pin2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "lane"
+        (path "/"
+          (reference "J-EMIT-LUAR")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Connector_Generic:Conn_01x02")
+    (at 76.2 85.09 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "jemitdal-1234-5678-9abc-def012345678")
+    (property "Reference" "J-EMIT-DALAM"
+      (at 78.74 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "Conn_01x02"
+      (at 78.74 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 76.2 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 76.2 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "jed1pin1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "jed1pin2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "lane"
+        (path "/"
+          (reference "J-EMIT-DALAM")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Connector_Generic:Conn_01x03")
+    (at 144.78 62.23 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "jtsoplua-1234-5678-9abc-def012345678")
+    (property "Reference" "J-TSOP-LUAR"
+      (at 147.32 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "Conn_01x03"
+      (at 147.32 64.77 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 144.78 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 144.78 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "jtl1pin1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "jtl1pin2-1234-5678-9abc-def012345678"))
+    (pin "3" (uuid "jtl1pin3-1234-5678-9abc-def012345678"))
+    (instances
+      (project "lane"
+        (path "/"
+          (reference "J-TSOP-LUAR")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Connector_Generic:Conn_01x03")
+    (at 144.78 85.09 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "jtsopdam-1234-5678-9abc-def012345678")
+    (property "Reference" "J-TSOP-DALAM"
+      (at 147.32 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "Conn_01x03"
+      (at 147.32 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 144.78 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 144.78 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "jtd1pin1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "jtd1pin2-1234-5678-9abc-def012345678"))
+    (pin "3" (uuid "jtd1pin3-1234-5678-9abc-def012345678"))
+    (instances
+      (project "lane"
+        (path "/"
+          (reference "J-TSOP-DALAM")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:C")
+    (at 121.92 73.66 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "ctsoplua-1234-5678-9abc-def012345678")
+    (property "Reference" "C_TSOP_LUAR"
+      (at 123.955 72.39 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "100nF"
+      (at 123.955 74.93 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 121.92 73.66 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 121.92 73.66 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "ctl1pin1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "ctl1pin2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "lane"
+        (path "/"
+          (reference "C_TSOP_LUAR")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:C")
+    (at 121.92 96.52 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "ctsopdam-1234-5678-9abc-def012345678")
+    (property "Reference" "C_TSOP_DALAM"
+      (at 123.955 95.25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "100nF"
+      (at 123.955 97.79 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 121.92 96.52 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 121.92 96.52 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "ctd1pin1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "ctd1pin2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "lane"
+        (path "/"
+          (reference "C_TSOP_DALAM")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (text "EMIT LUAR: Pin 1=ANODE (+), Pin 2=CATHODE (-)"
+    (exclude_from_sim no)
+    (at 73.66 50.8 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "textemit1-1234-5678-9abc-def012345678")
+  )
+
+  (text "EMIT DALAM: Pin 1=ANODE (+), Pin 2=CATHODE (-)"
+    (exclude_from_sim no)
+    (at 73.66 76.2 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "textemit2-1234-5678-9abc-def012345678")
+  )
+
+  (text "TSOP LUAR: Pin 1=VCC, Pin 2=OUT, Pin 3=GND"
+    (exclude_from_sim no)
+    (at 142.24 50.8 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "texttsop1-1234-5678-9abc-def012345678")
+  )
+
+  (text "TSOP DALAM: Pin 1=VCC, Pin 2=OUT, Pin 3=GND"
+    (exclude_from_sim no)
+    (at 142.24 76.2 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "texttsop2-1234-5678-9abc-def012345678")
+  )
+
+)

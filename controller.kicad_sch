@@ -1,0 +1,1509 @@
+(kicad_sch
+  (version 20230121)
+  (generator "eeschema")
+  (generator_version "7.0")
+
+  (uuid "a1b2c3d4-e5f6-7890-1234-567890abcdef")
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "74xx:74HC595"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at -7.62 13.97 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "74HC595"
+        (at -7.62 -16.51 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "Transistor_Array:ULN2803A"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at 0 15.875 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "ULN2803A"
+        (at 0 -16.51 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "Interface_Expansion:MCP23017_SO"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "U"
+        (at -11.43 24.13 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "MCP23017_SO"
+        (at 0 -24.13 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "Connector_Generic:Conn_02x19_Odd_Even"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "J"
+        (at 1.27 24.13 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "Conn_02x19_Odd_Even"
+        (at 1.27 -24.13 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "Device:R"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "R"
+        (at 2.032 0 90)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "R"
+        (at 0 0 90)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "Device:C"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "C"
+        (at 0.635 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "Device:CP1"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "CP1"
+        (at 0.635 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "power:+3V3"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "#PWR"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property "Value" "+3V3"
+        (at 0 3.556 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "power:+5V"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "#PWR"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property "Value" "+5V"
+        (at 0 3.556 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "power:GND"
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "#PWR"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (hide yes)
+        )
+      )
+      (property "Value" "GND"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+  )
+
+  (junction
+    (at 86.36 76.2)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "ab123456-7890-1234-5678-90abcdef1234")
+  )
+
+  (wire
+    (pts
+      (xy 86.36 76.2)
+      (xy 91.44 76.2)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "12345678-9abc-def0-1234-56789abcdef0")
+  )
+
+  (global_label "OE_595"
+    (shape input)
+    (at 50.8 78.74 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "595oe001-2345-6789-abcd-ef0123456789")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 50.8 78.74 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+
+  (global_label "595_SER"
+    (shape input)
+    (at 50.8 73.66 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "595ser01-2345-6789-abcd-ef0123456789")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 50.8 73.66 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+
+  (global_label "595_SRCLK"
+    (shape input)
+    (at 50.8 71.12 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "595srclk-2345-6789-abcd-ef0123456789")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 50.8 71.12 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+
+  (global_label "595_RCLK"
+    (shape input)
+    (at 50.8 68.58 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "595rclk1-2345-6789-abcd-ef0123456789")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 50.8 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+
+  (global_label "I2C_SDA"
+    (shape bidirectional)
+    (at 50.8 134.62 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "i2csda01-2345-6789-abcd-ef0123456789")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 50.8 134.62 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+
+  (global_label "I2C_SCL"
+    (shape input)
+    (at 50.8 132.08 180)
+    (fields_autoplaced)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "i2cscl01-2345-6789-abcd-ef0123456789")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 50.8 132.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Connector_Generic:Conn_02x19_Odd_Even")
+    (at 38.1 101.6 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "esp32lft-1234-5678-9abc-def012345678")
+    (property "Reference" "J-ESP32-LEFT"
+      (at 39.37 78.74 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "Conn_02x19_Odd_Even"
+      (at 39.37 124.46 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 38.1 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 38.1 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "esp32l01-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "esp32l02-1234-5678-9abc-def012345678"))
+    (pin "21" (uuid "esp32l21-1234-5678-9abc-def012345678"))
+    (pin "22" (uuid "esp32l22-1234-5678-9abc-def012345678"))
+    (pin "25" (uuid "esp32l25-1234-5678-9abc-def012345678"))
+    (pin "26" (uuid "esp32l26-1234-5678-9abc-def012345678"))
+    (pin "27" (uuid "esp32l27-1234-5678-9abc-def012345678"))
+    (pin "33" (uuid "esp32l33-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "J-ESP32-LEFT")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "74xx:74HC595")
+    (at 71.12 76.2 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "74hc595a-1234-5678-9abc-def012345678")
+    (property "Reference" "U1"
+      (at 63.5 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "74HC595"
+      (at 78.74 62.23 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 71.12 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 71.12 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "10" (uuid "74hc10a1-1234-5678-9abc-def012345678"))
+    (pin "11" (uuid "74hc11a1-1234-5678-9abc-def012345678"))
+    (pin "12" (uuid "74hc12a1-1234-5678-9abc-def012345678"))
+    (pin "13" (uuid "74hc13a1-1234-5678-9abc-def012345678"))
+    (pin "14" (uuid "74hc14a1-1234-5678-9abc-def012345678"))
+    (pin "15" (uuid "74hc15a1-1234-5678-9abc-def012345678"))
+    (pin "1" (uuid "74hc01a1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "74hc02a1-1234-5678-9abc-def012345678"))
+    (pin "8" (uuid "74hc08a1-1234-5678-9abc-def012345678"))
+    (pin "16" (uuid "74hc16a1-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "U1")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Transistor_Array:ULN2803A")
+    (at 121.92 76.2 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "uln2803a-1234-5678-9abc-def012345678")
+    (property "Reference" "U2"
+      (at 121.92 60.325 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "ULN2803A"
+      (at 121.92 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 121.92 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 121.92 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "uln01a1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "uln02a1-1234-5678-9abc-def012345678"))
+    (pin "18" (uuid "uln18a1-1234-5678-9abc-def012345678"))
+    (pin "17" (uuid "uln17a1-1234-5678-9abc-def012345678"))
+    (pin "10" (uuid "uln10a1-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "U2")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Interface_Expansion:MCP23017_SO")
+    (at 71.12 134.62 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "mcp23017-1234-5678-9abc-def012345678")
+    (property "Reference" "U3"
+      (at 59.69 110.49 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "MCP23017_SO"
+      (at 71.12 158.75 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 71.12 134.62 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 71.12 134.62 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "12" (uuid "mcp12a1-1234-5678-9abc-def012345678"))
+    (pin "13" (uuid "mcp13a1-1234-5678-9abc-def012345678"))
+    (pin "21" (uuid "mcp21a1-1234-5678-9abc-def012345678"))
+    (pin "1" (uuid "mcp01a1-1234-5678-9abc-def012345678"))
+    (pin "9" (uuid "mcp09a1-1234-5678-9abc-def012345678"))
+    (pin "10" (uuid "mcp10a1-1234-5678-9abc-def012345678"))
+    (pin "18" (uuid "mcp18a1-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "U3")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:R")
+    (at 33.02 132.08 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "rsclpull-1234-5678-9abc-def012345678")
+    (property "Reference" "R_SCL"
+      (at 33.02 129.54 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "4.7k"
+      (at 33.02 134.62 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 33.02 132.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 33.02 132.08 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "rscl1a1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "rscl2a1-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "R_SCL")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:R")
+    (at 33.02 134.62 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "rsdapull-1234-5678-9abc-def012345678")
+    (property "Reference" "R_SDA"
+      (at 33.02 132.08 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "4.7k"
+      (at 33.02 137.16 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 33.02 134.62 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 33.02 134.62 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "rsda1a1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "rsda2a1-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "R_SDA")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:R")
+    (at 38.1 129.54 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "rrstpull-1234-5678-9abc-def012345678")
+    (property "Reference" "R_RST"
+      (at 38.1 127 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "10k"
+      (at 38.1 132.08 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 38.1 129.54 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 38.1 129.54 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "rrst1a1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "rrst2a1-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "R_RST")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:R")
+    (at 157.48 45.72 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "reluar01-1234-5678-9abc-def012345678")
+    (property "Reference" "R_ELUAR"
+      (at 159.512 45.72 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "47R"
+      (at 157.48 45.72 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 157.48 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 157.48 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "reluar1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "reluar2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "R_ELUAR")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:R")
+    (at 167.64 45.72 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "redalam1-1234-5678-9abc-def012345678")
+    (property "Reference" "R_EDALAM"
+      (at 169.672 45.72 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "47R"
+      (at 167.64 45.72 90)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 167.64 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 167.64 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "redalam1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "redalam2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "R_EDALAM")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:C")
+    (at 99.06 86.36 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "c_u1dec1-1234-5678-9abc-def012345678")
+    (property "Reference" "C_U1"
+      (at 101.095 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "100nF"
+      (at 101.095 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 99.06 86.36 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 99.06 86.36 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "cu1dec1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "cu1dec2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "C_U1")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:C")
+    (at 99.06 144.78 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "c_u3dec1-1234-5678-9abc-def012345678")
+    (property "Reference" "C_U3"
+      (at 101.095 143.51 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "100nF"
+      (at 101.095 146.05 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 99.06 144.78 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 99.06 144.78 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "cu3dec1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "cu3dec2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "C_U3")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:CP1")
+    (at 187.96 55.88 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "cpbulk01-1234-5678-9abc-def012345678")
+    (property "Reference" "CP_BULK"
+      (at 189.995 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "470uF"
+      (at 189.995 57.15 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 187.96 55.88 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 187.96 55.88 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "cpbulk1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "cpbulk2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "CP_BULK")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:C")
+    (at 198.12 55.88 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "c1uf5v01-1234-5678-9abc-def012345678")
+    (property "Reference" "C_1UF"
+      (at 200.155 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "1uF"
+      (at 200.155 57.15 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 198.12 55.88 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 198.12 55.88 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "c1uf5v1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "c1uf5v2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "C_1UF")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "Device:C")
+    (at 208.28 55.88 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "c100nf5v-1234-5678-9abc-def012345678")
+    (property "Reference" "C_100NF"
+      (at 210.315 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "100nF"
+      (at 210.315 57.15 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" ""
+      (at 208.28 55.88 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 208.28 55.88 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "c100nf1-1234-5678-9abc-def012345678"))
+    (pin "2" (uuid "c100nf2-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "C_100NF")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "power:+3V3")
+    (at 86.36 63.5 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "3v3power1-1234-5678-9abc-def012345678")
+    (property "Reference" "#PWR01"
+      (at 86.36 67.31 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "+3V3"
+      (at 86.36 59.944 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 86.36 63.5 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 86.36 63.5 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "3v3pwr1-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "#PWR01")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "power:+5V")
+    (at 175.26 40.64 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "5vpower01-1234-5678-9abc-def012345678")
+    (property "Reference" "#PWR02"
+      (at 175.26 44.45 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "+5V"
+      (at 175.26 37.084 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 175.26 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 175.26 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "5vpwr01-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "#PWR02")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol
+    (lib_id "power:GND")
+    (at 86.36 88.9 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "gndpwr01-1234-5678-9abc-def012345678")
+    (property "Reference" "#PWR03"
+      (at 86.36 95.25 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "GND"
+      (at 86.36 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" ""
+      (at 86.36 88.9 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 86.36 88.9 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin "1" (uuid "gndpwr1-1234-5678-9abc-def012345678"))
+    (instances
+      (project "controller"
+        (path "/"
+          (reference "#PWR03")
+          (unit 1)
+        )
+      )
+    )
+  )
+
+  (sheet
+    (at 165.1 93.98)
+    (size 33.02 20.32)
+    (fields_autoplaced)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0.0000)
+    )
+    (uuid "lane0sht-1234-5678-9abc-def012345678")
+    (property "Sheetname" "Lane0"
+      (at 165.1 93.2684 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "lane.kicad_sch"
+      (at 165.1 114.8946 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (pin "L0_EMIT_LUAR_ANODE" input
+      (at 165.1 96.52 180)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+      (uuid "l0emlua-1234-5678-9abc-def012345678")
+    )
+    (pin "L0_EMIT_LUAR_CATHODE" bidirectional
+      (at 165.1 99.06 180)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+      (uuid "l0emluc-1234-5678-9abc-def012345678")
+    )
+    (pin "L0_EMIT_DALAM_ANODE" input
+      (at 165.1 101.6 180)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+      (uuid "l0emda1-1234-5678-9abc-def012345678")
+    )
+    (pin "L0_EMIT_DALAM_CATHODE" bidirectional
+      (at 165.1 104.14 180)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left)
+      )
+      (uuid "l0emdac-1234-5678-9abc-def012345678")
+    )
+    (pin "L0_TSOP_LUAR_VCC" power_in
+      (at 198.12 96.52 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify right)
+      )
+      (uuid "l0tslv1-1234-5678-9abc-def012345678")
+    )
+    (pin "L0_TSOP_LUAR_OUT" output
+      (at 198.12 99.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify right)
+      )
+      (uuid "l0tslo1-1234-5678-9abc-def012345678")
+    )
+    (pin "L0_TSOP_LUAR_GND" power_in
+      (at 198.12 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify right)
+      )
+      (uuid "l0tslg1-1234-5678-9abc-def012345678")
+    )
+    (pin "L0_TSOP_DALAM_VCC" power_in
+      (at 198.12 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify right)
+      )
+      (uuid "l0tsdv1-1234-5678-9abc-def012345678")
+    )
+    (pin "L0_TSOP_DALAM_OUT" output
+      (at 198.12 106.68 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify right)
+      )
+      (uuid "l0tsdo1-1234-5678-9abc-def012345678")
+    )
+    (pin "L0_TSOP_DALAM_GND" power_in
+      (at 198.12 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify right)
+      )
+      (uuid "l0tsdg1-1234-5678-9abc-def012345678")
+    )
+    (instances
+      (project "controller"
+        (path "/"
+          (page "2")
+        )
+      )
+    )
+  )
+
+  (text "ESP32 DevKitC Pin Mapping:\nGPIO33 → Pin 21 (J-ESP32-LEFT)\nGPIO25 → Pin 22 (J-ESP32-LEFT)\nGPIO26 → Pin 25 (J-ESP32-LEFT)\nGPIO27 → Pin 26 (J-ESP32-LEFT)\nGPIO21 → Pin 27 (J-ESP32-LEFT)\nGPIO22 → Pin 33 (J-ESP32-LEFT)"
+    (exclude_from_sim no)
+    (at 10.16 50.8 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left top)
+    )
+    (uuid "esp32note-1234-5678-9abc-def012345678")
+  )
+
+  (text "OE_595 is active-low, driven at 38 kHz PWM"
+    (exclude_from_sim no)
+    (at 55.88 85.09 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "oelownot-1234-5678-9abc-def012345678")
+  )
+
+  (text "MR pulled up to +3V3 for normal operation"
+    (exclude_from_sim no)
+    (at 45.72 81.28 0)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify left)
+    )
+    (uuid "mrpullup-1234-5678-9abc-def012345678")
+  )
+
+)
