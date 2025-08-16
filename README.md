@@ -79,6 +79,8 @@ Output mapping: OUT1 → Lane_X_LUAR_CATHODE, OUT2 → Lane_X_DALAM_CATHODE
    - +5V rail (for emitter anodes via series resistors)
    - +3.3V and GND (for TSOP power)
 
+**Note**: Hierarchical sheet pins for power rails (VCC/GND) must use type `input` or `passive`. KiCad 9 does not accept `power_in` as a valid pin type.
+
 ## Operation Notes
 
 ### LED Modulation
