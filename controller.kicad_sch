@@ -1401,7 +1401,7 @@
       )
       (uuid "l0emdac-1234-5678-9abc-def012345678")
     )
-    (pin "L0_TSOP_LUAR_VCC" power_in
+    (pin "L0_TSOP_LUAR_VCC" input
       (at 198.12 96.52 0)
       (effects
         (font
@@ -1421,7 +1421,7 @@
       )
       (uuid "l0tslo1-1234-5678-9abc-def012345678")
     )
-    (pin "L0_TSOP_LUAR_GND" power_in
+    (pin "L0_TSOP_LUAR_GND" input
       (at 198.12 101.6 0)
       (effects
         (font
@@ -1431,7 +1431,7 @@
       )
       (uuid "l0tslg1-1234-5678-9abc-def012345678")
     )
-    (pin "L0_TSOP_DALAM_VCC" power_in
+    (pin "L0_TSOP_DALAM_VCC" input
       (at 198.12 104.14 0)
       (effects
         (font
@@ -1451,7 +1451,7 @@
       )
       (uuid "l0tsdo1-1234-5678-9abc-def012345678")
     )
-    (pin "L0_TSOP_DALAM_GND" power_in
+    (pin "L0_TSOP_DALAM_GND" input
       (at 198.12 109.22 0)
       (effects
         (font

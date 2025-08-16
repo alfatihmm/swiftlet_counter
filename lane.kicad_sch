@@ -243,7 +243,7 @@
   )
 
   (hierarchical_label "L0_TSOP_LUAR_VCC"
-    (shape power_in)
+    (shape input)
     (at 160.02 60.96 0)
     (fields_autoplaced)
     (effects
@@ -269,7 +269,7 @@
   )
 
   (hierarchical_label "L0_TSOP_LUAR_GND"
-    (shape power_in)
+    (shape input)
     (at 160.02 66.04 0)
     (fields_autoplaced)
     (effects
@@ -282,7 +282,7 @@
   )
 
   (hierarchical_label "L0_TSOP_DALAM_VCC"
-    (shape power_in)
+    (shape input)
     (at 160.02 83.82 0)
     (fields_autoplaced)
     (effects
@@ -308,7 +308,7 @@
   )
 
   (hierarchical_label "L0_TSOP_DALAM_GND"
-    (shape power_in)
+    (shape input)
     (at 160.02 88.9 0)
     (fields_autoplaced)
     (effects
